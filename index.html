@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="menu" onclick="openClose ()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="youtube_image">
+            <img src="./YouTube_Logo_2017 (1).png" alt="">
+        </div>
+        <div class="input_n">
+            <input class="qidir" type="search" placeholder="Введите запрос">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div class="mikrafon">
+                <i class="fa-regular fa-video-plus"></i>
+            </div>
+        </div>
+
+        <div class="right_n">
+            <i class="fa-regular fa-video"></i>
+            <i class="fa-regular fa-bell"></i>
+        </div>
+        <div class="accaunt">
+            <h1><a
+                    href="https://accounts.google.com/SignOutOptions?hl=ru&continue=https://www.google.com%3Fhl%3Dru"></a>a
+            </h1>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="video">
+            <div class="box_v">
+                <video autoplay playsinline controls loop
+                    src="./Miyagi_-_Marlboro_Official_Audio-_Wn1qWfEovM.mp4">sss</video>
+            </div>
+            <div class="post">
+                <h2>Miyagi - Marlboro (Official Audio)</h2>
+                <div class="link">
+                    <ul>
+                        <li>333 45</li>
+                        <li class="like1" onclick="like()"><i class="fa-regular fa-thumbs-up"></i> 6,8 ТЫС.</li>
+                        <li class="nolike"><i class="fa-regular fa-thumbs-down" onclick="nolike()"></i> НЕ НРАВИТСЯ</li>
+                        <li><i class="fa-solid fa-share"></i> ПОДЕЛИТЬСЯ</li>
+                        <li><i class="fa-solid fa-scissors"></i>СОЗДАТЬ КЛИП</li>
+                        <li><i class="fa-solid fa-indent"></i>СОХРАНИТЬ</li>
+                        <li><i class="fa-solid fa-ellipsis"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="komentariy">
+                <div class="kanal">
+                    <div class="obuna">
+                        <img src="./4c530a83024275.5d2f644be1021.jpg" alt="">
+
+                        <h3>HAJIME</h3><br>
+                        <button>подписаться</button>
+                    </div>
+
+                    <p>Подписка на канал HAJIMAN <a href="https://goo.gl/kmmHNA">https://goo.gl/kmmHNA</a><br>
+                        Лучшие хиты дуэта Miyagi и Эндшпиль. Живые концертные выступления. Музыкальные <br> подборки
+                        HAJIMAN YouTube Exclusive.</p>
+                </div>
+
+                <div class="kom_input">
+                    <div class="kom_acc">
+                        <h5>a</h5>
+                    </div>
+
+                    <input type="text" placeholder="Введите текст комментария">
+                </div>
+                <div class="Main_coment">
+                    <div class="coments">
+                        <div class="acc">
+                            <img width="30" src="./4c530a83024275.5d2f644be1021.jpg" alt="">
+                        </div>
+                        <div class="coment">
+                            <h6>abik1bragim</h6>
+                            <p>Мияги— это человек не стремящийся идти к славе, он поёт просто как будто для себя. Его
+                                песни как басни и все имеют определённый смысл.</p>
+
+                            <i class="fa-regular fa-thumbs-up"> 1,9 тыс.</i>
+                            <i class="fa-regular fa-thumbs-down"></i>
+                        </div>
+                    </div>
+                    <div class="coments">
+                        <div class="acc">
+                            <img width="30" src="./4c530a83024275.5d2f644be1021.jpg" alt="">
+                        </div>
+                        <div class="coment">
+                            <h6>abik1bragim</h6>
+                            <p>Мияги— это человек не стремящийся идти к славе, он поёт просто как будто для себя. Его
+                                песни как басни и все имеют определённый смысл.</p>
+
+                            <i class="fa-regular fa-thumbs-up"> 1,9 тыс.</i>
+                            <i class="fa-regular fa-thumbs-down"></i>
+                        </div>
+                    </div>
+                    <div class="coments">
+                        <div class="acc">
+                            <img width="30" src="./4c530a83024275.5d2f644be1021.jpg" alt="">
+                        </div>
+                        <div class="coment">
+                            <h6>abik1bragim</h6>
+                            <p>Мияги— это человек не стремящийся идти к славе, он поёт просто как будто для себя. Его
+                                песни как басни и все имеют определённый смысл.</p>
+
+                            <i class="fa-regular fa-thumbs-up"> 1,9 тыс.</i>
+                            <i class="fa-regular fa-thumbs-down"></i>
+                        </div>
+                    </div>
+                    <div class="coments">
+                        <div class="acc">
+                            <img width="30" src="./4c530a83024275.5d2f644be1021.jpg" alt="">
+                        </div>
+                        <div class="coment">
+                            <h6>abik1bragim</h6>
+                            <p>Мияги— это человек не стремящийся идти к славе, он поёт просто как будто для себя. Его
+                                песни как басни и все имеют определённый смысл.</p>
+
+                            <i class="fa-regular fa-thumbs-up"> 1,9 тыс.</i>
+                            <i class="fa-regular fa-thumbs-down"></i>
+                        </div>
+                    </div>
+                    <div class="coments">
+                        <div class="acc">
+                            <img width="30" src="./4c530a83024275.5d2f644be1021.jpg" alt="">
+                        </div>
+                        <div class="coment">
+                            <h6>abik1bragim</h6>
+                            <p>Мияги— это человек не стремящийся идти к славе, он поёт просто как будто для себя. Его
+                                песни как басни и все имеют определённый смысл.</p>
+
+                            <i class="fa-regular fa-thumbs-up"> 1,9 тыс.</i>
+                            <i class="fa-regular fa-thumbs-down"></i>
+                        </div>
+                    </div>
+                    <div class="coments">
+                        <div class="acc">
+                            <img width="30" src="./4c530a83024275.5d2f644be1021.jpg" alt="">
+                        </div>
+                        <div class="coment">
+                            <h6>abik1bragim</h6>
+                            <p>Мияги— это человек не стремящийся идти к славе, он поёт просто как будто для себя. Его
+                                песни как басни и все имеют определённый смысл.</p>
+
+                            <i class="fa-regular fa-thumbs-up"> 1,9 тыс.</i>
+                            <i class="fa-regular fa-thumbs-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="paigs">
+                <button>Все видео</button>
+                <button>Из результатов пщиск</button>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+            <div class="main_video">
+                <iframe width="150" height="98" src="https://www.youtube.com/embed/-Kq-KxgSbxM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="main_text">
+                    <h5>Miyagi feat. TumaniYO, KADI- Bismarck (Official Audio) </h5>
+                    <p>Hajime</p>
+                    <span>60 mln ko'rilgan-3 yil oldin</span>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="Main_sid">
+    <div class="sidebar">
+        <input class="search" type="text" placeholder="Быстрый поиск...">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-house"></i><span>Главная</span></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-globe"></i><span>Языки</span></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa-regular fa-compass"></i></i><span>Навигатор</span></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa-light fa-rectangle-history"></i><span>Подписки</span></a></li>
+        </ul>
+        <hr>
+        <div class="showmorebtn" onclick="ochiq()">
+            <ul>
+                <li><i class="fa-solid fa-angle-down"></i>Show More</li>
+            </ul>
+        </div>
+
+        <div class="showmore">
+            <li><i class="fa-solid fa-face-smile-beam"></i>User</li>
+
+            <li><i class="fa-solid fa-face-smile-beam"></i>User</li>
+
+            <li><i class="fa-solid fa-face-smile-beam"></i>User</li>
+
+            <li><i class="fa-solid fa-face-smile-beam"></i>User</li>
+
+            <li><i class="fa-solid fa-face-smile-beam"></i>User</li>
+
+            <li><i class="fa-solid fa-face-smile-beam"></i>User</li>
+            <div class="arrow2" onclick="Close()">
+                <ul>
+                    <li><i class="fa-solid fa-angle-up"></i>Show Les</li>
+                </ul>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#"><i class="fa-light fa-book-copy"></i><span>Библиотека</span></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-clock-rotate-left"></i><span>История</span></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa-light fa-airplay"></i><span>Ваши видео</span></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa-regular fa-clock"></i><span>Смотреть позже</span></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fa-regular fa-thumbs-up"></i><span>Понравившиеся</span></a></li>
+        </ul>
+    </div>
+
+    <!-- <div class="black" onclick="Close()"></div> -->
+</div>
+
+
+</body>
+<script src="./app.js"></script>
+
+</html>
